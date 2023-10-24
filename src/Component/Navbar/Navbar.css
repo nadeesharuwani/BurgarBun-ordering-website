@@ -1,0 +1,31 @@
+.navbar{
+  width: 100%;
+  height:100px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.navbar .logo{
+  width:60px;
+  height: 60px;
+}
+.navLeft{
+  flex:2;
+  justify-content: center;
+  position: relative;
+  left:50px;
+  top:20px;
+}
+.navRight{
+  flex:5;
+  text-align: right;
+  padding: 40px;
+}
+.link{
+  padding-left: 20px;
+  font-size: 15px;
+  color:white;
+  font-weight: 100;
+  text-decoration: none;
+}

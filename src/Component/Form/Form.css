@@ -1,0 +1,48 @@
+.mainContainer{
+  display:flex;
+}
+.leftSide{
+  flex:10;
+  justify-content: center;
+  padding: 40px;
+}
+.img1{
+  width: 600px;
+  height: 400px;
+  transform: rotate(350deg);
+  position: relative;
+  top:50px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.rightSide{
+  flex:5;
+  padding: 30px;
+  
+}
+.formContainer{
+ background-color: rgb(233, 233, 230);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  position: relative;
+  right: 100px;
+  border-radius: 10px;
+}
+.inputForm{
+  width:90%;
+  padding:10px;
+  border: none;
+  border-radius: 5px;
+}
+.labelForm{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif
+}
+.subButton{
+  background-color: rgb(30, 235, 23);
+  width:100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}

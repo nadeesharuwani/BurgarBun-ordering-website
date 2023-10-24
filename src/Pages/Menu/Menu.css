@@ -1,0 +1,16 @@
+.menu{
+
+}
+.menuTitle{
+  font-family:cursive ;
+  text-align: center;
+  font-weight: 1000;
+}
+.menuItemList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuItem{
+ padding: 30px;
+}

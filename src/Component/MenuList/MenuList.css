@@ -1,0 +1,28 @@
+
+.Image{
+  width: 220px;
+  height: 150px;
+
+}
+
+.menuList{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   border-radius: 10px;
+   margin: 30px;
+   text-align: center;
+   font-weight: bold;
+}
+.Order{
+  width:60px;
+  height: 30px;
+  background-color: rgb(23, 212, 23);
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  top:5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+}
